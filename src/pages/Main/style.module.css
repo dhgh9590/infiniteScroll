@@ -1,0 +1,5 @@
+.section{width: 100%;height: 100%; padding: 20px; box-sizing: border-box;}
+.box{width: 100%;height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.box ul{display: grid; grid-template-columns: repeat(4,minmax(350px,auto)); grid-gap: 10px;}
+.box ul li{width: 100%;height: 350px;background: #ccc;}
+.box ul li img{width: 100%;height: 100%;object-fit: cover;}
